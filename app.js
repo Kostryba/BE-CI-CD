@@ -14,7 +14,7 @@ app.use(cors(corsOptions));
 var port = process.env.PORT || 3000;
 
 app.get("/", function (request, response) {
-    response.send({name: 'Super Alex!!@!!!'});
+    response.send({name: 'Super Alex2!!@!!!'});
 });
 
 app.get("/users", function (request, response) {
